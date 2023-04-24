@@ -1,6 +1,7 @@
 import React from "react";
 import MovieCard from "./MovieCard";
 
+//default app incase no new movie is added
 function App() {
   const title = "Mad Max";
   const posterURL =
@@ -13,5 +14,5 @@ function App() {
     </div>
   );
 }
-
+  
 export default App;
